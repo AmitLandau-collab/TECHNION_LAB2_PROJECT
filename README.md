@@ -12,6 +12,8 @@ Pre-requisites: Git and Anaconda.
 download the initial datasets from the drive link here: 
 https://drive.google.com/drive/folders/11GtaGzPMuIKdhc9F0ixAvQB6oAq63W4c?usp=sharing
 in each file at the start of the main section, change the file path of uploaded files(for example the datasets or the result files) to their updated location.
+files upload set up for each file: 
+
 To install and run the code on your local machine, follow these steps:
 1. ### Clone the repository
    First, clone the repository to your local machine using Git. Open a terminal and run the following command:
