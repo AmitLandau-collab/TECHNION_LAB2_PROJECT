@@ -20,7 +20,7 @@ To install and run the code on your local machine, follow these steps:
 2. ### Create and activate the conda environment
    After cloning the repository, navigate into the project directory:
     ```bash
-    cd Tech_career_roadmap
+    cd TECHNION_LAB2_PROJECT
     ```
     Then, use the following command to create a conda environment from the environment.yml file provided in the project:
     ```bash
