@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 
 # Load the dataset
-df = pd.read_csv("/content/fashion-mnist_train.csv")
+file_path = '/content/fashion-mnist_train.csv'
+df = pd.read_csv(file_path)
 pixel_columns = [col for col in df.columns if 'pixel' in col]
 MMNIST_labels = df['label'].values
 MMNIST_embeddings_array = df[pixel_columns].values  # Get the pixel columns as a NumPy array
