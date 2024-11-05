@@ -12,8 +12,12 @@ Pre-requisites: Git and Anaconda.
 download the initial datasets from the drive link here: 
 https://drive.google.com/drive/folders/11GtaGzPMuIKdhc9F0ixAvQB6oAq63W4c?usp=sharing
 in each file at the start of the main section, change the file path of uploaded files(for example the datasets or the result files) to their updated location.
-files upload set up for each file: 
-
+## files paths required for set up of each file: 
+### PCA_vizualizations:
+"AUGMENTED_PCA_VIZ.py" and "MMNIST_PCA_VIZ.py" require the "fashion-mnist_train.csv" from the drive link above.
+"TRIVIAL_PCA_VIZ.py" requires the "index.pkl" from the drive 
+"PIPELINE_SIMULATION.py" requires both "fashion-mnist_train.csv" and "index.pkl"
+"results_analysis.py" requires all the files from the "results_files" directory in this project repository.
 To install and run the code on your local machine, follow these steps:
 1. ### Clone the repository
    First, clone the repository to your local machine using Git. Open a terminal and run the following command:
