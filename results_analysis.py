@@ -1,7 +1,7 @@
 import json
 import matplotlib.pyplot as plt
 
-# Load the JSON files
+# Load the JSON files of results
 with open('best_AUGMENTED_random_setups_final.json', 'r') as f:
     best_AUGMENTED_random_setups = json.load(f)
 
